@@ -2,7 +2,7 @@
 
 **About Project**
 
-This project was done as an assessment for the unit Decision modelling. The excel spreadsheet was developed to build and optimisation model subject to certain criteria. The optimization techniques used are Linear Programming and sensitivity analysis, Integer Linear Programming and Non-Linear Programming. The project also uses real historic data sourced from https://au.finance.yahoo.com. 
+This project was done as an assessment for the unit Decision modelling. The excel spreadsheets were developed to build a stock market portfolio optimisation model subject to certain constraints. The optimization techniques used are Linear Programming and sensitivity analysis, Integer Linear Programming and Non-Linear Programming. The project also uses real historic data sourced from https://au.finance.yahoo.com. 
 
 **Linear Programming Model**
 
@@ -32,7 +32,7 @@ Conceptual model of the problem
 <img width="702" alt="Screenshot 2024-10-13 at 2 51 30 PM" src="https://github.com/user-attachments/assets/5921ccbf-496e-4ff5-b189-5d550da28835">
 
 
-This portfolio is an integer linear programming model where the model will solve what portfolios should be invested based on the mentioned restrictions. In this problem, the required amount of stock options is 6.
+This portfolio is an integer linear programming model where the model will solve what portfolios should be invested based on the mentioned constraints. In this problem, the required amount of stock options is 6. The model assumes that the investments will be equally weighted for all stock options.
 
 The following is the excel spreadsheet which is built with solver.
 
@@ -44,7 +44,7 @@ The following is the excel spreadsheet which is built with solver.
 
 **Maximising returns subject to a given risk**
 
-This model is built with the objective of maximising returns subject to 9% risk. Therefore, the model will provide the weights of investment in each stock which will provide the greatest returns subject to 9% risk. 
+This model is built with the objective of maximising returns subject to a given risk. Therefore, the model will provide the weights of investment in each stock which will provide the greatest returns subject to a 9% risk. 
 
 <img width="569" alt="Screenshot 2024-10-13 at 2 41 40 PM" src="https://github.com/user-attachments/assets/d030abb5-8031-4561-bf0a-72cda4df96ad">
 
